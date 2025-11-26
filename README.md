@@ -279,6 +279,11 @@ A single audit or evidence workflow can inspect multiple symbolic domains.
 
 ---
 
+**Shunyaya Symbolic Mathematics — Master Documentation Hub**  
+https://github.com/OMPSHUNYAYA/Shunyaya-Symbolic-Mathematics-Master-Docs
+
+---
+
 ## Topics
 
 SSM-Tweet, symbolic messaging, deterministic messaging, structural envelopes, alignment lane, Quero lane, posture lanes, bounded posture, U/W kernel, deterministic replay, non-ML communication, zero-semantics framework, transparent ordering, reproducible communication, structural drift, thread coherence, lineage integrity, envelope kernels, manifest-governed messaging, ZETA-0 resets, portable envelopes, tamper-evident threads, audit-ready communication, zero-centric messaging, Shunyaya Symbolic Mathematics, Shunyaya framework, structural mathematics for messaging, observation-only symbolic framework.
