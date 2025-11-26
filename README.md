@@ -2,9 +2,9 @@
 
 *Transparent posture. Deterministic threads. Truthful communication.*
 
-![GitHub Stars](https://img.shields.io/github/stars/OMPSHUNYAYA/Shunyaya-Symbolic-Mathematical-Tweet?style=flat&logo=github)
+![GitHub Stars](https://img.shields.io/github/stars/OMPSHUNYAYA/Symbolic-Mathematical-Tweet?style=flat&logo=github)
 ![License](https://img.shields.io/badge/license-Open%20Standard%20%2F%20Open%20Source-brightgreen?style=flat&logo=open-source-initiative)
-![CI Status](https://github.com/OMPSHUNYAYA/Shunyaya-Symbolic-Mathematical-Tweet/actions/workflows/ssm-tweet-ci.yml/badge.svg)
+![CI Status](https://github.com/OMPSHUNYAYA/Symbolic-Mathematical-Tweet/actions/workflows/ssm-tweet-ci.yml/badge.svg)
 
 ---
 
