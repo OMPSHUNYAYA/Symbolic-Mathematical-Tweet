@@ -27,6 +27,8 @@ Each message becomes two layers:
 SSM-Tweet is pure symbolic mathematics designed for transparent,
 truth-aligned communication.
 
+---
+
 ### Key benefits
 
 - **Deterministic posture**  
@@ -53,30 +55,34 @@ truth-aligned communication.
 - **Ethical by construction**  
   The system expresses structure only — never meaning, identity, or intention.
 
+---
+
 ## Quick Links
 
 ### Docs
-- docs/SSM-Tweet_ver3.2.pdf
-- docs/Brief-SSM-Tweet_ver3.2.pdf
-- docs/Concept-Flyer_SSM-Tweet_ver3.2.pdf
+- [docs/SSM-Tweet_ver3.2.pdf](docs/SSM-Tweet_ver3.2.pdf)
+- [docs/Brief-SSM-Tweet_ver3.2.pdf](docs/Brief-SSM-Tweet_ver3.2.pdf)
+- [docs/Concept-Flyer_SSM-Tweet_ver3.2.pdf](docs/Concept-Flyer_SSM-Tweet_ver3.2.pdf)
 
 ### Specs
-- specs/FAQ.md
-- specs/Quickstart.md
-- specs/Full-Deterministic-Structural-POC.md
+- [specs/FAQ.md](specs/FAQ.md)
+- [specs/Quickstart.md](specs/Quickstart.md)
+- [specs/Full-Deterministic-Structural-POC.md](specs/Full-Deterministic-Structural-POC.md)
 
 ### Tools
-- tools/run_demo.py
-- tools/thread_generator.py
-- tools/heatmap_alignment_quero.py
-- tools/quero_graph_demo.py
+- [tools/run_demo.py](tools/run_demo.py)
+- [tools/thread_generator.py](tools/thread_generator.py)
+- [tools/heatmap_alignment_quero.py](tools/heatmap_alignment_quero.py)
+- [tools/quero_graph_demo.py](tools/quero_graph_demo.py)
 
 ### Examples
-- examples/envelopes.json
+- [examples/envelopes.json](examples/envelopes.json)
 
 ### Visuals
-- visuals/SSM-Tweet_Alignment_vs_QueroDrift.png
-- visuals/SSM-Tweet_Heatmap_Alignment_Quero.png
+- [visuals/SSM-Tweet_Alignment_vs_QueroDrift.png](visuals/SSM-Tweet_Alignment_vs_QueroDrift.png)
+- [visuals/SSM-Tweet_Heatmap_Alignment_Quero.png](visuals/SSM-Tweet_Heatmap_Alignment_Quero.png)
+
+---
 
 ## Core Definitions (ASCII)
 
@@ -117,6 +123,8 @@ Signals structural coherence, drift, resets, lineage effects, or thread irregula
 
 All fields are additive and non-destructive.
 
+---
+
 ## Integration Modes
 
 ### Overlay Mode (immediate deployment)
@@ -141,6 +149,8 @@ Ideal for:
 - research communication systems
 - enterprise messaging
 - engineering and audit workflows
+
+---
 
 ## Quick Start
 
@@ -193,6 +203,8 @@ Generates heatmap visualizations showing:
 ### 4. quero_graph_demo.py
 Produces Quero coherence graphs across threads, branches, and resets.
 
+---
+
 ## License / Usage
 
 **Open standard • Open source**  
@@ -219,6 +231,8 @@ If any interpretation or structure is modified, the change must be explicitly de
 **Safety**  
 Observation-only.  
 Not for moderation, ranking, inference, sentiment detection, or any safety-critical decision-making.
+
+---
 
 ## Semantic Category / Practical Scope
 
@@ -260,6 +274,8 @@ SSM-Tweet reuses the same:
 shared across SSM-AI, SSM-EQ, SSM-T, SSM-NET, and other symbolic projects.
 
 A single audit or evidence workflow can inspect multiple symbolic domains.
+
+---
 
 ## Topics
 
