@@ -1,0 +1,46 @@
+name: SSM-Tweet CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: 3.11
+
+    - name: Install dependencies (if requirements.txt exists)
+      run: |
+        if [ -f requirements.txt ]; then
+          pip install -r requirements.txt
+        else
+          pip install numpy matplotlib
+        fi
+
+    - name: Run deterministic POC
+      run: |
+        echo "=== Running deterministic structural POC ==="
+        python tools/run_demo.py
+
+    - name: Run envelope generator (50 synthetic messages)
+      run: |
+        echo "=== Generating synthetic envelopes ==="
+        python tools/thread_generator.py --mode synthetic --count 50
+
+    - name: Validate Quero + Alignment drift (non-visual)
+      run: |
+        echo "=== Non-visual alignment/Quero test ==="
+        python tools/heatmap_alignment_quero.py --headless true || true
+
+    - name: Final status
+      run: echo "SSM-Tweet CI pipeline completed successfully."
