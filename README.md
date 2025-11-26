@@ -60,9 +60,9 @@ truth-aligned communication.
 ## Quick Links
 
 ### Docs
-- [docs/SSM-Tweet_ver3.2.pdf](docs/SSM-Tweet_ver3.2.pdf)
+- [docs/Concept%20Flyer-SSM-Tweet_ver3.2.pdf](docs/Concept%20Flyer-SSM-Tweet_ver3.2.pdf)
 - [docs/Brief-SSM-Tweet_ver3.2.pdf](docs/Brief-SSM-Tweet_ver3.2.pdf)
-- [docs/Concept-Flyer_SSM-Tweet_ver3.2.pdf](docs/Concept-Flyer_SSM-Tweet_ver3.2.pdf)
+- [docs/SSM-Tweet_ver3.2.pdf](docs/SSM-Tweet_ver3.2.pdf)
 
 ### Specs
 - [specs/FAQ.md](specs/FAQ.md)
